@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using CppSharp.AST;
@@ -100,6 +101,10 @@ namespace CppSharp.Utils
             }
 
             throw new Exception("Could not find tests output directory");
+        }
+
+        public void GenerateCode(Driver driver, List<GeneratorOutput> outputs)
+        {
         }
         #endregion
     }

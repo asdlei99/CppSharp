@@ -192,5 +192,9 @@ namespace CppSharp
                 Console.WriteLine();
             }
         }
+
+        public void GenerateCode(Driver driver, List<GeneratorOutput> outputs)
+        {
+        }
     }
 }

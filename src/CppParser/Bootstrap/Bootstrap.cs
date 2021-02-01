@@ -273,6 +273,10 @@ namespace CppSharp
             ConsoleDriver.Run(new Bootstrap());
             Console.WriteLine();
         }
+
+        public void GenerateCode(Driver driver, List<GeneratorOutput> outputs)
+        {
+        }
     }
 
     class PreprocessDeclarations : AstVisitor
